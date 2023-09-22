@@ -26,9 +26,7 @@ function changeColor() {
         ";
     }
 }
-function dd($value) {
-    die(var_dump($value));
-}
+
 function randomValue($array){
     return $array[array_rand($array)];
 }

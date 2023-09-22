@@ -14,14 +14,8 @@
         <div class="row">
             <div class="offset-2 col-8">
                 <h1>Hello, ADSD!</h1>
-
-
                 <?php
-                    echo changeColor();
-
-                    characterCounterType($person);
-
-                    echo randomValue($players);
+                    echo personQuotes($teammembers, $quotes);
                 ?>
             </div>
         </div>
